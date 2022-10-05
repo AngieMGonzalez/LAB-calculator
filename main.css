@@ -1,0 +1,16 @@
+/* body {
+  background-color: transparent;
+} */
+
+.wholecalculator {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center;  */
+  width: 400px;
+}
+
+.output {
+  background-color: #000000;
+  color: #ffffff;
+  width: 400px;
+}
