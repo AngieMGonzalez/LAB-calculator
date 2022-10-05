@@ -1,16 +1,52 @@
-/* body {
-  background-color: transparent;
-} */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
 
 .wholecalculator {
   display: flex;
-  flex-wrap: wrap;
-  /* justify-content: center;  */
   width: 400px;
+  position: relative;
+  display: grid;
 }
 
-.output {
+.rowone {
   background-color: #000000;
   color: #ffffff;
   width: 400px;
+  grid-column: span 4;
+  text-align: right;
+  padding: 10px;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.rowtwo {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.rowthree {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.rowfour {
+  display: flex;
+  flex-direction: row;
+
+}
+.rowfive {
+  display: flex;
+  flex-direction: row;
+
+}
+.rowsix {
+  display: flex;
+  flex-direction: row;
+
 }
