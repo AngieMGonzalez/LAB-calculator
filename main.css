@@ -1,52 +1,45 @@
+html {
+  box-sizing: border-box; /*padding and the border inside the box */
+}
+/* https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   background-color: #ffffff;
+  padding: 0;
+  margin: 0;
 }
 
 .wholecalculator {
-  display: flex;
   width: 400px;
-  position: relative;
-  display: grid;
+  border: 3px solid red;
+  background-color: black;
+  color: white;
+  /* display: flex; */
+  /* position: relative;
+  display: grid; */
 }
 
-.rowone {
+.output {
   background-color: #000000;
   color: #ffffff;
-  width: 400px;
-  grid-column: span 4;
   text-align: right;
-  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px 5px;
+  /* grid-column: span 4;
+  
   font-size: 18px;
-  margin: 0px;
+  margin: 0px; */
 }
 
-.rowtwo {
-  display: flex;
-  flex-direction: row;
-
-}
-
-.rowthree {
-  display: flex;
-  flex-direction: row;
-
-}
-
-.rowfour {
-  display: flex;
-  flex-direction: row;
-
-}
-.rowfive {
-  display: flex;
-  flex-direction: row;
-
-}
-.rowsix {
-  display: flex;
-  flex-direction: row;
+.row {
+  border: 3px solid blue; 
+  /* display: flex;
+  flex-direction: row; */
 
 }
