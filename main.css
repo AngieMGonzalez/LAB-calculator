@@ -1,46 +1,65 @@
-html {
-  box-sizing: border-box; /*padding and the border inside the box */
-}
-/* https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 body {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   background-color: #ffffff;
   padding: 0;
   margin: 0;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .wholecalculator {
   width: 400px;
-  border: 3px solid red;
   background-color: black;
   color: white;
-  /* display: flex; */
-  /* position: relative;
-  display: grid; */
 }
 
 .row {
-  border: 3px solid blue; 
-  /* display: flex;
-  flex-direction: row; */
-
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
 }
 
 .output {
   background-color: #000000;
   color: #ffffff;
   text-align: right;
-  font-family: 'Courier New', Courier, monospace;
   padding: 20px 5px;
   font-size: 40px;
-  /* grid-column: span 4;
-  
-  font-size: 18px;
-  margin: 0px; */
+}
+
+.clear {
+  width: 49.5%;
+}
+
+.quarterwidth {
+  width: 24.5%;
+}
+
+.zero {
+  width: 74.5% 
+}
+
+.orange {
+  background-color: #df974c;
+}
+
+button {
+  font-size: xx-large;
+  background-color: #d8d9db;
+}
+
+.button:hover {
+  background-color: #ebebeb;
+}
+
+.button:active {
+  color: #bbbcbe;
+}
+
+
+.orange:hover {
+  background-color: #dfb07e;
+}
+
+.orange:active {
+  color: #dd8d37; 
 }
