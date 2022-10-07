@@ -25,21 +25,22 @@ body {
   display: grid; */
 }
 
+.row {
+  border: 3px solid blue; 
+  /* display: flex;
+  flex-direction: row; */
+
+}
+
 .output {
   background-color: #000000;
   color: #ffffff;
   text-align: right;
   font-family: 'Courier New', Courier, monospace;
   padding: 20px 5px;
+  font-size: 40px;
   /* grid-column: span 4;
   
   font-size: 18px;
   margin: 0px; */
-}
-
-.row {
-  border: 3px solid blue; 
-  /* display: flex;
-  flex-direction: row; */
-
 }
